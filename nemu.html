@@ -301,7 +301,7 @@
                         </span>
                      </div>
                      <div class="modal-footer">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Due to accgen's shutdown we sadly have to disable the feature for generating steam accounts.">Generate</button>
+                        <button type="button" class="btn btn-primary" onclick="mass_generate_clicked()" data-dismiss="modal">Generate</button>
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                      </div>
                   </div>
@@ -428,7 +428,7 @@
                <button id="history_download_button" type="button" onclick="history_download_pressed()" class="btn btn-primary btn-lg">Download user:password list</button>
             </div>
             <div id="control_buttons">
-               <button id="generate_button" type="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Due to accgen's shutdown we sadly have to disable the feature for generating steam accounts." class="btn btn-primary btn-lg">Generate</button>
+               <button id="generate_button" type="button" onclick="generate_pressed();" class="btn btn-primary btn-lg">Generate</button>
                <button type="button" class="btn btn-primary btn-lg" onclick="settings_pressed();" data-toggle="modal" data-target="#settings_popup">Preferences</button>
                <button id="history_button" style="display:none" type="button" onclick="history_pressed();" class="btn btn-primary btn-lg">History</button>
             </div>
