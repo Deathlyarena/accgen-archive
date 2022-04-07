@@ -11,3 +11,25 @@ th {
     text-align: left;
     padding: 8px;
 }
+
+/* scrollbar CUSTOm */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #525151 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #525151;
+    border-radius: 0px;
+    border: 0px solid #ffffff;
+  }
