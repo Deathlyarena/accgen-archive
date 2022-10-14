@@ -1,3 +1,4 @@
+<small>Beta test branch</small>
 <!-- 
 ACCGEN COPYRIGHT TO NULLWORKS,
   All files and newly created files are all owned by nullworks 
@@ -18,9 +19,6 @@ ACCGEN COPYRIGHT TO NULLWORKS,
 <h6>
   i got no clue what someone could do to bring this back which is why i did my best to not mess with much from there website (meaning you can edit it like the day the website still existed) altho be warned files have been moved and some stuff has been changed to meet standard requirements for ya know <i>copying an entire copyrighted website</i>
 </h6>
-<h3> Accgen Gallary </h3>
-<img src="static/images/gallery/index.png">
-<img src="static/images/gallery/custom.png">
 <div align="center"><b>
   Copyright: &copy;Nullworks, Cathook, All Developers who supported accgen's development.
 </b></div>
