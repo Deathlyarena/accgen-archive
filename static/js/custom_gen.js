@@ -87,29 +87,8 @@ function init() {
             3 - unknown error
         */
         data = parseInt(data);
-
-        switch (data) {
-            case 1:
-                $('#patreon_signin').show();
-                $('#accgen_ui').hide();
-                $('#recap').hide()
-                $("#generate_button").hide();
-                break;
-            case 2:
-                $('#patreon_pay').show();
-                $('#accgen_ui').hide();
-                $('#recap').hide()
-                $("#generate_button").hide();
-                break;
-            case 3:
-                $('#patreon_error').show();
-                $('#accgen_ui').hide();
-                $('#recap').hide()
-                $("#generate_button").hide();
-                break;
-            case 0:
-                common_init();
-        }
+        common_init();
+        
     }).fail(function () {
         $('#patreon_error').show();
         $('#accgen_ui').hide();
